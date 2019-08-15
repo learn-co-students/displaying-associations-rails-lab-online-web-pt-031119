@@ -2,6 +2,5 @@
 
 <%@artists.each do |a|%>
 <h3><%=a.name%></h3>
-<h4><%="#{a.song_count.to_s}" + "songs"%></h4>
-<%binding.pry%>
+<h4><%="#{a.song_count.to_s}" + " " + "songs"%></h4>
 <%end%>
